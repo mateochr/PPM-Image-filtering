@@ -1,6 +1,8 @@
 ## Static library
 
-ppm  
+*info about what ppm does can be found in ppm.h*
+
+**ppm**
 * external static library
 * independent project in the solution
 * embeded to the application
