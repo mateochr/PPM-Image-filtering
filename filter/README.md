@@ -2,7 +2,7 @@
 
 *info can be found in every .h file*
 
-##Array2D class
+## Array2D class
 
 * array2d.h: declaration of templated class Array2D
 * arrat2d.hpp: definition of every function of array2d.h
