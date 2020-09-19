@@ -16,6 +16,8 @@ Every filter except laplace has parameters.
 5. Open cmd
 6. Use filterd etc./filter etc. depending on which build you did. (Release is faster)
 
+**input image must be in the same folder**
+
 To transform an image input.ppm into it's negative version and save it as filtered_input.ppm 
 
 `filter -f linear -1 -1 -1 1 1 1 input.ppm`
@@ -23,4 +25,3 @@ To transform an image input.ppm into it's negative version and save it as filter
 You can also supply a list of multiple filters to be applied successively, for example
 
 `filter -f laplace -f blur 3 -f gamma 2 -f linear 2 2 2 0 0 0 -f blur 1 input.ppm`
-
