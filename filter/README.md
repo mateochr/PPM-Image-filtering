@@ -1,4 +1,4 @@
-## Start up project
+# Main project
 
 *info can be found in every .h file*
 
