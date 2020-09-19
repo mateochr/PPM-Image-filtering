@@ -1,0 +1,36 @@
+﻿Build started 9/17/2020 2:06:38 PM.
+     1>Project "C:\Users\Darkis\Desktop\github\c++\Assignment\filter\filter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Darkis\Desktop\github\c++\Assignment\ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt filter.cpp filterblur.cpp filtergamma.cpp filterlaplace.cpp filterlinear.cpp image.cpp main.cpp
+         filter.cpp
+         filterblur.cpp
+         filtergamma.cpp
+     1>filtergamma.cpp(32): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>filtergamma.cpp(33): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>filtergamma.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         filterlaplace.cpp
+         filterlinear.cpp
+     1>filterlinear.cpp(32): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>filterlinear.cpp(36): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>filterlinear.cpp(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         image.cpp
+     1>image.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>main.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darkis\Desktop\github\c++\Assignment\Release\filter.exe" /NOLOGO /LIBPATH:C:\Users\Darkis\Desktop\github\c++\Assignment\\ppm kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ppm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Darkis\Desktop\github\c++\Assignment\Release\filter.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Darkis\Desktop\github\c++\Assignment\Release\filter.lib" /MACHINE:X86 /SAFESEH Release\filter.obj
+         Release\filterblur.obj
+         Release\filtergamma.obj
+         Release\filterlaplace.obj
+         Release\filterlinear.obj
+         Release\image.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         filter.vcxproj -> C:\Users\Darkis\Desktop\github\c++\Assignment\Release\filter.exe
+     1>Done Building Project "C:\Users\Darkis\Desktop\github\c++\Assignment\filter\filter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.28
