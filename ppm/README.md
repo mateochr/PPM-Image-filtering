@@ -1,5 +1,7 @@
 ## Static library
 
+Generates ppm.lib or ppm_d.lib depending on the build(Debug/Release).
+
 *info about what ppm does can be found in ppm.h*
 
 * external static library
