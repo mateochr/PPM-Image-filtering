@@ -1,4 +1,4 @@
-# PPM-Image-filtering
+# PPM Image filtering
 Applying filters on images with ppm format using C++
 
 ## The Filters
