@@ -9,6 +9,13 @@ Every filter except laplace has parameters.
 * blur: Has 1 parameter N. Each pixel is the average value of it's NxN neighboring valid pixels.
 
 ## HowTo
+1. Download all files into one folder. 
+2. Open Assignment.sln with visual studio (created on visual studio 2013) 
+3. Build the solution.
+4. Go to Debug/Release folder, depending on which build you did.
+5. Open cmd
+6. Use filterd etc./filter etc. depending on which build you did. (Release is faster)
+
 To transform an image input.ppm into it's negative version and save it as filtered_input.ppm 
 
 `filter -f linear -1 -1 -1 1 1 1 input.ppm`
