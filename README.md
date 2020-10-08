@@ -1,5 +1,5 @@
 # PPM Image filtering
-Applying filters on images with ppm format using C++
+Applying filters on ppm images using C++
 
 ## The Filters
 Every filter except laplace has parameters.
