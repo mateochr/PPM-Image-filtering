@@ -1,6 +1,9 @@
 # PPM Image filtering
 Applying filters on ppm images using C++
 
+## PPM
+"A PPM file is a 24-bit color image formatted using a text format. It stores each pixel with a number from 0 to 65536, which specifies the color of the pixel. PPM files also store the image height and width, whitespace data, and the maximum color value."
+
 ## The Filters
 Every filter except laplace has parameters.
 * gamma: Has 1 parameter γ, every color channel of the pixel is raised to the power of γ.
